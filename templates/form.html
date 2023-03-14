@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=-1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ferum</title>
+  <!-- Подключение библиотеки jQuery-->
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/cookielib/src/cookie.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  
+  <meta http-equiv="Refresh" content="300">
+</head>
+
+<!-- Интерфейс: имя, окно чата, текст сообщения -->  
+<body id="body">
+  <center>
+    <table>
+      <tr>
+        <td>
+          <img src="https://sun9-21.userapi.com/impg/TzZxtvF5GaYZVJzlfNOfiyjOknDAk5LRNnXgog/td1U1y0TNKk.jpg?size=226x226&quality=96&sign=e012f71aea994566474f92245e2ca5fc&type=album" class="button_user" id="button_home" >
+        </td>
+        <td>
+          <input id='id_user' type='text' minlength="5"  style="width: 150px;" placeholder='ID пользователя'/>
+          <input id='password' type='password' minlength="10" maxlength="10" style="width: 100px;" placeholder="Пароль диалога"/>
+        </td>
+      </tr>
+    </table>
+    <p></p>
+    <table >
+      <tr>
+        <td> 
+          <div id="content_home" class="contenthome" >
+            <input id='image_users' type='text' minlength="10" style="width: 120px;" placeholder="Ссылка на изображение"/>
+            <input id='id_sender' minlength="5" style="width: 120px;" placeholder='Ваш ID (5 символов)'/>
+            <p></p>
+            <img src="https://sun9-24.userapi.com/impg/wAYZg8o0fkd6c1XxjnTGlpdGRy39nR3lAJvhFg/hbDXR60PuLU.jpg?size=460x460&quality=96&sign=b26f387cab47f883834509621fbce963&type=album" class="img" id="button_home" onclick="theme_orange()" >
+            <img src="https://sun9-56.userapi.com/impg/ugDQLJ0ZkbbHCGvRNwiwhzM30qWoluJmY3KIWw/RAvsWb3l6a4.jpg?size=460x460&quality=96&sign=d81a40f6c510d1202875d51114cad9f2&type=album" class="img" id="button_home" onclick="theme_gray()" >
+          </div>
+          <div class="chats" id="chats">
+            <div  class="chat" id='chat_window'></div>
+          </div>
+          <div id="content_message" class="contentmessage" >
+            <input id='text' type='text' maxlength="10" placehder='Сообщение'>
+            <b id="emoticon" class="emoticon">😁</b>
+            <button class="send" onclick="send_Message()">Отправить</button>
+          </div>
+          <p></p>
+          <div id="emoticn" class="emoticn">
+            <!--<p >Эмоции</p>-->
+            <h3>
+            <b onclick="smile1()">😁</b>
+            <b onclick="smile2()">😆</b>
+            <b onclick="smile8()">🤗</b>
+            <!--<b onclick="smile9()">😇</b>-->
+            <b onclick="love1()">💖</b>
+            <b onclick="smile18()">😔</b>
+            </h3>
+            <!-- ❤💝💓💢🔥⭐💧☃🎁✨🎄☀🥶🥵-->
+          </div>
+        </td>
+      </tr>
+      
+
+      </table>
+  </center>
+  
+</body>
+  
+</html>

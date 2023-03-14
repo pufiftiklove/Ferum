@@ -1,0 +1,135 @@
+/*Тема*/
+body {
+    background-color: #1a1a1a;
+}
+
+input {
+    border-radius: 5px;
+}
+
+p {
+    color: #ffffff;
+}
+
+.chats {
+    display: none;
+}
+
+.chat {
+    overflow: auto;
+    border: solid;
+    overflow: auto;
+    position: fixed;
+    top: 80px;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+}
+
+.contenthome {
+    display: none;
+    overflow: auto;
+}
+
+.contentmessage {
+    display: none;
+    height: auto;
+    position: fixed;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+}
+
+.send {
+    border: radius 5px;
+    color: #fafbfc;
+    background-color: #8000ff;
+}
+
+.generate {
+    border-block-color: none;
+    color: #303C6C;
+    background-color: #F4976C;
+}
+
+.button_user {
+    width: 60px;
+    height: 60px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.emoticn {
+    height: 60px;
+    display: none;
+    overflow: auto;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.div_sender {
+    overflow-wrap: break-word;
+    width: fit-content;
+    background-color: #D1C0DE;
+    border-radius: 5px 5px 5px 5px;
+    width: 320px;
+}
+
+.div_user {
+    overflow-wrap: break-word;
+    width: fit-content;
+    background-color: #e8dfee;
+    border-radius: 5px 5px 5px 5px;
+    width: 320px;
+}
+
+.div_sender1 {
+    overflow-wrap: break-word;
+    width: fit-content;
+    background-color: #a2cb90;
+    border-radius: 5px 5px 5px 5px;
+    width: 320px;
+}
+
+.div_user1 {
+    overflow-wrap: break-word;
+    width: fit-content;
+    background-color: #cce8c0;
+    border-radius: 5px 5px 5px 5px;
+    width: 320px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.emoticon {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Телефон */
+
+
+/* Когда ширина окна от 1100 пикселей, ширина  div-2 будет 900px */
